@@ -1,4 +1,4 @@
-CustomerID,ProductID,Quantity,Price,TransactionDate,PaymentMethod,StoreLocation,ProductCategory,DiscountApplied(%),TotalAmount
+CustomerID,ProductID,Quantity,Price,TransactionDate,PaymentMethod,StoreLocation,ProductCategory,DiscountApplied,TotalAmount
 109318,C,7,80.07984415,12/26/2023 12:32,Cash,"176 Andrew Cliffs
 Baileyfort, HI 93354",Books,18.6770995,455.8627638
 993229,C,4,75.19522942,8/5/2023 0:00,Cash,"11635 William Well Suite 809
