@@ -9,7 +9,7 @@ services:
       - MYSQL_DATABASE=user_db
     restart: always
   spring-boot-service:
-    #image: akashkale/springboot:v1
+    image: akashkale/springboot:prolim_backend_v1
     build: ./backend/spring-user-service/
     container_name: spring_boot_container
     ports:
@@ -18,6 +18,7 @@ services:
       - mysqldb-service
     restart: always
   reactjs-service:
+    image: akashkale/reactjs:prolim_frontend_v1
     build: ./frontend/react-user-app/
     container_name: reactjs_container
     ports:
